@@ -271,7 +271,7 @@
       >
         <!-- KPI CARDS -->
 
-        <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6 mb-20">
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6 mb-20">
           <div class="bg-white p-5 rounded-xl shadow border-b-4 border-red-500">
             <p class="text-gray-500 text-sm">New Connections</p>
             <h2 class="text-3xl font-bold">234</h2>
@@ -312,12 +312,15 @@
           <div class="lg:col-span-2 bg-white rounded-xl shadow p-6">
             <div class="flex justify-between items-center mb-4">
               <h2 class="font-semibold text-lg">Network Traffic</h2>
-              <button class="bg-red-500 text-white px-4 py-1 rounded">
+              <a
+                href="./404.html"
+                class="bg-red-500 text-white px-4 py-1 rounded"
+              >
                 Actions
-              </button>
+              </a>
             </div>
 
-            <canvas id="trafficChart"></canvas>
+            <canvas id="trafficChart" class="max-h-56 md:max-h-96"></canvas>
           </div>
 
           <!-- DONUT CHART -->
